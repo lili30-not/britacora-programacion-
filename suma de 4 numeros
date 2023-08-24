@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main () {
+int n1, n2, n3. n4, suma;
+printf ("Introduzca un número");
+scanf ("%d", & n1);
+printf ("Introduzca un número");
+scanf ("%d", & n2);
+printf ("Introduzca un número");
+scanf ("%d", & n3);
+printf ("Introduzca un número");
+scanf ("%d", & n4);
+suma=n1+n2+n3+n4;
+printf (" la suma de los 4 números es: %d",suma);
+return 0;
+}
