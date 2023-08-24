@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+int altura, base, area;
+	printf ("ingrese base ");
+	scanf ("%d", &base);
+	printf ("ingrese altura ");
+	scanf ("%d", &altura);
+	area=base*altura;
+	printf ("el area de un rectangulo es: %d ", area);
+	return 0;
+}
