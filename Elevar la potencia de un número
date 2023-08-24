@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+/* desarrollar un programa que sea capaz de elevar la potencia en un numero */
+int main(int argc, char *argv[]) {
+	int numero, potencia; // Aquí guardaremos lo que ingrese el usuario
+	printf("Ingresa el numero:\n");
+	scanf("%d", &numero);
+	printf("Escribe la potencia para elevarlo:\n");
+	scanf("%d", &potencia);
+	int elevado = pow(numero, potencia);
+	printf("%d elevado a la potencia %d es %d\n", numero, potencia, elevado);
+	return 0;
+	}
