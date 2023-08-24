@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+    float area, lado, perimetro;
+    printf ("Ingresa el valor de lado: ");
+    scanf ("%f", &lado);
+    (void) getchar ();
+    area=lado*lado;
+    printf ("Valor de area: %g\n", area);
+    putchar ('\n');
+    system ("pause");
+    return EXIT_SUCCESS;
+}
