@@ -1,0 +1,10 @@
+#include <math.h>
+#include <stdio.h>
+int main ()
+ {
+    double numero = 5;
+    double potencia = 2;
+    double elevado = pow(numero, potencia);
+    printf("%lf elevado a la potencia %lf es %lf\n", numero, potencia, elevado);
+    return 0
+}
